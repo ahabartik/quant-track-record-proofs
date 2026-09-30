@@ -9,8 +9,8 @@ Verify with `ots verify <file>.ots` (needs the original file next to it).
 |---|---|---|---|
 | PLAN.md | 3a8d75be921b2f2d2798531fadba9d08d12a0f33225b0180d19f837c3fc480cc | PLAN.md.ots | Bitcoin attestation embedded 2026-09-30 (block 969221 in `ots info`) |
 | STRESS_TEST.md | 6c58f54275f4000f24a635d439efc7d5e24bcd28eec535129369820067583ac0 | STRESS_TEST.md.ots | Bitcoin attestation embedded 2026-09-30 |
-| registrations/C-2026-001.json | 0917f89c2248c963d61a4de0806aa377f4540c20fcf0af25a0df0145e096f5bb | registrations/C-2026-001.json.ots | Stamped 2026-09-30T14:07:40Z (UTC), Bitcoin attestation pending |
-| registrations/C-2026-002.json | fb2e48c497eb0fdf83a8e159b321b5c8b2af293967ebdff848baf4e4c50cb305 | registrations/C-2026-002.json.ots | Stamped 2026-09-30T14:07:58Z (UTC), Bitcoin attestation pending |
+| registrations/C-2026-001.json | 0917f89c2248c963d61a4de0806aa377f4540c20fcf0af25a0df0145e096f5bb | registrations/C-2026-001.json.ots | Stamped 2026-09-30T14:07:40Z (UTC), Bitcoin attestation embedded 2026-09-30 (block 969313 in `ots info`) |
+| registrations/C-2026-002.json | fb2e48c497eb0fdf83a8e159b321b5c8b2af293967ebdff848baf4e4c50cb305 | registrations/C-2026-002.json.ots | Stamped 2026-09-30T14:07:58Z (UTC), Bitcoin attestation embedded 2026-09-30 (block 969313 in `ots info`) |
 
 If either file changes, the old proof no longer verifies against the new file. Keep the commit that matches the hash above.
 
