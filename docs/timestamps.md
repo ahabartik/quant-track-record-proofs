@@ -16,3 +16,5 @@ If either file changes, the old proof no longer verifies against the new file. K
 - Each iteration end that closes a backlog item writes the HEAD commit hash to `manifests/stamps/<date>_<shortsha>.txt` and stamps it with `ots stamp`; the `.ots` proof is committed in a later commit (a commit cannot contain a proof of its own hash).
 - Each session start runs `ots upgrade` on all pending proofs (`*.ots` files) and commits the upgraded ones.
 - `ots upgrade` leaves `*.ots.bak` backups; they are gitignored.
+- Each session end stamps HEAD, commits the stamp files, then runs `bin/publish_proofs` to copy the proofs (allow-listed files only) to the public hash-only mirror and push.
+- Every proof pending at a session start is upgraded (`ots upgrade`) and the upgrade committed before new work.
