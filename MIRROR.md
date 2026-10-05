@@ -5,7 +5,7 @@ prove, so that the timing of the private repository's states can be checked by a
 
 All results of the project are hypothetical paper results and research data, not investment performance.
 
-- Source repository HEAD when this mirror was written: `9326df9156c68c637d948521e319b6cfc2c22a43`
+- Source repository HEAD when this mirror was written: `66ed70df369d783302cf7ea6837460378d1a2723`
 - Written: 2026-10-05
 - Files: 44 proof files (`manifests/stamps/*.txt` with their `.ots`, `PLAN.md.ots`, `STRESS_TEST.md.ots`, `registrations/*.json.ots`, `docs/timestamps.md`)
 
