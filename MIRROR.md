@@ -5,8 +5,8 @@ prove, so that the timing of the private repository's states can be checked by a
 
 All results of the project are hypothetical paper results and research data, not investment performance.
 
-- Source repository HEAD when this mirror was written: `91ceda52094ffc3f38831fe6bb2f270c7f690efa`
-- Written: 2026-10-20
-- Files: 60 proof files (`manifests/stamps/*.txt` with their `.ots`, `PLAN.md.ots`, `STRESS_TEST.md.ots`, `registrations/*.json.ots`, `docs/timestamps.md`)
+- Source repository HEAD when this mirror was written: `30a55ea21a29a7ae8c58d7b1ec113d24b642eb50`
+- Written: 2026-10-26
+- Files: 62 proof files (`manifests/stamps/*.txt` with their `.ots`, `PLAN.md.ots`, `STRESS_TEST.md.ots`, `registrations/*.json.ots`, `docs/timestamps.md`)
 
 Verify a proof with `ots verify <file>.ots` (opentimestamps-client) next to the file it proves; the `.txt` stamp files hold a git commit hash.
